@@ -1,0 +1,1 @@
+give idea for someone who want to start wrinting procedure and function in postgredSQL
