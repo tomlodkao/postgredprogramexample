@@ -1,4 +1,4 @@
-create or replace function test(in msg varchar) return text
+create or replace function testfn(in msg varchar) returns text
 as
 $$
 begin

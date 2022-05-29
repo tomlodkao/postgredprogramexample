@@ -1,8 +1,8 @@
-create or replace procedure test(inout mgs) 
+create or replace procedure testprc(inout mgs varchar) 
 as
 $$
 begin
-    select 'Hello World '||msg into msg;
+    select 'Hello World '||mgs into mgs;
 end;
 $$
-language plpqsql;
+language plpgsql;
